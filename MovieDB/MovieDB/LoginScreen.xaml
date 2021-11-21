@@ -1,0 +1,20 @@
+﻿<Window x:Class="MovieDB.LoginScreen"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MovieDB"
+        mc:Ignorable="d"
+        Title="LoginScreen" Height="320" Width="300" FontSize="14" Background="LightCoral">
+    <Border Background="Black" CornerRadius="20" Margin="20">
+        <StackPanel Margin="20">
+            <Label Content="Login" Foreground="White" FontSize="25" HorizontalAlignment="Center"></Label>
+            <Separator></Separator>
+            <Label Content="UserName" Foreground="White"></Label>
+            <TextBox Name="txtUserName" Background="Gray" Foreground="White" FontSize="18"></TextBox>
+            <Label Content="Password" Foreground="White"></Label>
+            <PasswordBox Name="txtPassword" Background="Gray" Foreground="White" FontSize="18"></PasswordBox>
+            <Button Name="btnOK" Content="OK" Background="Gray" Foreground="White" FontSize="18" Margin="60 10" Click="btnOK_Click"></Button>
+        </StackPanel>
+    </Border>
+</Window>
