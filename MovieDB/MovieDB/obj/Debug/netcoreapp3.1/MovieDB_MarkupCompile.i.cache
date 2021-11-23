@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1;
 D:\Visual Studio\Git\MovieDB\MovieDB\MovieDB\App.xaml
-2-1452161638
+4627329785
 
-6386730863
+111458383024
 2021217109264
-LoginScreen.xaml;MainWindow.xaml;
+LoginScreen.xaml;MainWindow.xaml;MVVM\View\HomeView.xaml;Theme\MenuButtonStyle.xaml;
 
-False
+True
 

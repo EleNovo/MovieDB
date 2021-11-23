@@ -5,16 +5,16 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MovieDB"
         mc:Ignorable="d"
-        Title="LoginScreen" Height="320" Width="300" FontSize="14" Background="LightCoral">
-    <Border Background="Black" CornerRadius="20" Margin="20">
+        Title="LoginScreen" Height="320" Width="300" FontSize="18" Background="#3E6B66">
+    <Border Background="#88D0C8" CornerRadius="20" Margin="15">
         <StackPanel Margin="20">
-            <Label Content="Login" Foreground="White" FontSize="25" HorizontalAlignment="Center"></Label>
-            <Separator></Separator>
-            <Label Content="UserName" Foreground="White"></Label>
-            <TextBox Name="txtUserName" Background="Gray" Foreground="White" FontSize="18"></TextBox>
-            <Label Content="Password" Foreground="White"></Label>
-            <PasswordBox Name="txtPassword" Background="Gray" Foreground="White" FontSize="18"></PasswordBox>
-            <Button Name="btnOK" Content="OK" Background="Gray" Foreground="White" FontSize="18" Margin="60 10" Click="btnOK_Click"></Button>
+            <Label Content="Вход" Foreground="White" FontSize="30" HorizontalAlignment="Center"></Label>
+            <Separator Background="White"></Separator>
+            <Label Content="Логин" Foreground="White"></Label>
+            <TextBox Name="txtUserName" Background="White" Foreground="#3E6B66" FontSize="18"></TextBox>
+            <Label Content="Пароль" Foreground="White"></Label>
+            <PasswordBox Name="txtPassword" Background="White" Foreground="#3E6B66" FontSize="18"></PasswordBox>
+            <Button Name="btnOK" Content="OK" Background="#3E6B66" Foreground="White" FontSize="18" Margin="70, 20" Click="btnOK_Click"></Button>
         </StackPanel>
     </Border>
 </Window>

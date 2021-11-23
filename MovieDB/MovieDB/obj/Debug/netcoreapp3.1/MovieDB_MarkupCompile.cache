@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\Visual Studio\Git\MovieDB\MovieDB\obj\Debug\netcoreapp3.1\
+D:\Visual Studio\Git\MovieDB\MovieDB\MovieDB\obj\Debug\netcoreapp3.1\
 MovieDB
 none
 false
 TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1;
-D:\Visual Studio\Git\MovieDB\MovieDB\App.xaml
-2-1452161638
+D:\Visual Studio\Git\MovieDB\MovieDB\MovieDB\App.xaml
+4627329785
 
-41853059820
+9-1370255315
 2021217109264
-LoginScreen.xaml;MainWindow.xaml;
+LoginScreen.xaml;MainWindow.xaml;MVVM\View\HomeView.xaml;Theme\MenuButtonStyle.xaml;
 
 False
 
