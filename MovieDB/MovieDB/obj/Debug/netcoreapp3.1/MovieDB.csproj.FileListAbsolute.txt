@@ -111,3 +111,5 @@ D:\Visual Studio\Git\MovieDB\MovieDB\MovieDB\obj\Debug\netcoreapp3.1\Theme\MenuB
 D:\Visual Studio\Git\MovieDB\MovieDB\MovieDB\obj\Debug\netcoreapp3.1\MVVM\View\HomeView.g.cs
 D:\Visual Studio\Git\MovieDB\MovieDB\MovieDB\obj\Debug\netcoreapp3.1\GeneratedInternalTypeHelper.g.cs
 D:\Visual Studio\Git\MovieDB\MovieDB\MovieDB\obj\Debug\netcoreapp3.1\MVVM\View\HomeView.baml
+D:\Visual Studio\Git\MovieDB\MovieDB\MovieDB\obj\Debug\netcoreapp3.1\MVVM\View\MovieListView.g.cs
+D:\Visual Studio\Git\MovieDB\MovieDB\MovieDB\obj\Debug\netcoreapp3.1\MVVM\View\MovieListView.baml

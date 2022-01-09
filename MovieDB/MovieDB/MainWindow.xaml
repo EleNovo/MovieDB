@@ -37,12 +37,15 @@
                              Height="50" 
                              Foreground="White" 
                              FontSize="16" 
-                             Style="{StaticResource MenuButtonStyle}"/>
+                             Style="{StaticResource MenuButtonStyle}"
+                             IsChecked="True"
+                             Command="{Binding HomeViewCommand}"/>
                 <RadioButton Content="Movie List" 
                              Height="50" 
                              Foreground="White" 
                              FontSize="16" 
-                             Style="{StaticResource MenuButtonStyle}"/>
+                             Style="{StaticResource MenuButtonStyle}"
+                             Command="{Binding MovieViewCommand}"/>
             </StackPanel>
             <ContentControl Grid.Row="1"
                             Grid.Column="1"

@@ -7,18 +7,19 @@
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
     <StackPanel>
-        <TextBlock Text="Недавно добавленное"
+        <TextBlock Text="Discover"
                    Foreground="White"
                    FontSize="26"
                    HorizontalAlignment="Left"
                    Margin="0,0,0,20"/>
-        <StackPanel Orientation="Horizontal">
+        <StackPanel Orientation="Horizontal"
+                    Margin="0,0,0,10">
             <Border Width="350"
                     Height="200">
                 <Border.Background>
                     <LinearGradientBrush StartPoint="0,0" EndPoint="1,2">
-                        <GradientStop Color="#88D0C8" Offset="0.0"/>
-                        <GradientStop Color="#72BFB7" Offset="1"/>
+                        <GradientStop Color="#4CCBC5" Offset="0.0"/>
+                        <GradientStop Color="#1D8A85" Offset="1"/>
                     </LinearGradientBrush>
                 </Border.Background>
                 <Border.Clip>
@@ -28,13 +29,68 @@
                 </Border.Clip>
                 <Grid>
                     <StackPanel>
-                        <TextBlock Text="Test text&#x0a;Test text"
+                        <TextBlock Text="Обновленная коллекция&#x0a;фильмов"
                                    Foreground="White"
                                    FontSize="26"
                                    Margin="20,10,10,0"/>
                     </StackPanel>
+                    <Image Width="189"
+                           Source="/Images/image1.png"
+                           HorizontalAlignment="Right" Margin="0,26,4,-43" RenderTransformOrigin="0.5,0.5">
+                        <Image.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform/>
+                                <SkewTransform/>
+                                <RotateTransform Angle="68.531"/>
+                                <TranslateTransform/>
+                            </TransformGroup>
+                        </Image.RenderTransform>
+                    </Image>
                 </Grid>
             </Border>
+            <Border Width="200"
+                    Height="200"
+                    CornerRadius="10"
+                    Margin="50,0,0,0">
+
+                <Border.Background>
+                    <LinearGradientBrush StartPoint="0,0" EndPoint="1,2">
+                        <GradientStop Color="#EBC05B" Offset="0.0"/>
+                        <GradientStop Color="#CC784A" Offset="1"/>
+                    </LinearGradientBrush>
+                </Border.Background>
+            </Border>
+        </StackPanel>
+
+        <StackPanel>
+            <StackPanel.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="Margin" Value="10,0,0,0"/>
+                </Style>
+            </StackPanel.Resources>
+            <TextBlock Text="Недавно добавленное"
+                       Foreground="White"
+                       FontSize="20"
+                       Margin="0,0,0,10"/>
+            <StackPanel Orientation="Horizontal">
+                <Border Width="142"
+                        Height="150" 
+                        Background="#43C79D"
+                        CornerRadius="15"
+                        Margin="0"/>
+                <Border Width="142"
+                        Height="150" 
+                        Background="#47C785"
+                        CornerRadius="15"/>
+                <Border Width="142"
+                        Height="150" 
+                        Background="#88C747"
+                        CornerRadius="15"/>
+                <Border Width="142"
+                        Height="150" 
+                        Background="#D6CB45"
+                        CornerRadius="15"/>
+            </StackPanel>
         </StackPanel>
     </StackPanel>
 </UserControl>

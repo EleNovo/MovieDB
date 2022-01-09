@@ -6,7 +6,11 @@ namespace MovieDB.MVVM.ViewModel
 {
     class MainViewModel : ObservableObject
     {
+        public RelayCommand HomeViewCommand { get; set; }
+        public RelayCommand MovieViewCommand { get; set; }
+
         public HomeViewModel HomeVM { get; set; }
+        public MovieListViewModel MovieVM { get; set; }
 
         private object _currentView;
 
@@ -23,7 +27,18 @@ namespace MovieDB.MVVM.ViewModel
         public MainViewModel()
         {
             HomeVM = new HomeViewModel();
+            MovieVM = new MovieListViewModel();
             CurrentView = HomeVM;
+
+            HomeViewCommand = new RelayCommand(o => 
+            {
+                CurrentView = HomeVM;
+            });
+
+            MovieViewCommand = new RelayCommand(o =>
+            {
+                CurrentView = MovieVM;
+            });
         }
     }
 }
